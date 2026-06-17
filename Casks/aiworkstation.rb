@@ -13,7 +13,7 @@ cask "aiworkstation" do
   desc "Native macOS canvas for running multiple AI coding agents side by side"
   homepage "https://github.com/sbaruwal/AIWorkstation"
 
-  depends_on macos: ">= :sequoia" # macOS 15+
+  depends_on macos: :sequoia # macOS 15+ (bare symbol = minimum version)
 
   app "AIWorkstation.app"
 
