@@ -5,8 +5,8 @@
 # Per release: bump `version` and `sha256` to match the notarized DMG
 # (`shasum -a 256 Orbvane-<version>.dmg`, or the digest on the release page), then commit here.
 cask "orbvane" do
-  version "0.3.5"
-  sha256 "ca5a35e387b75778fcd615c5f09942f0a9c85c77a5a0c47a964eb8d2e90c4b56"
+  version "0.3.6"
+  sha256 "dddc68b260defd3c22c216488b4114955df72e03053f071e0e051423af60978d"
 
   url "https://github.com/sbaruwal/orbvane/releases/download/v#{version}/Orbvane-#{version}.dmg"
   name "Orbvane"
